@@ -1,6 +1,6 @@
 ## Sailor Landing Page
 
-This is my first time using react, a landing page for a travel company, it is a perosnal project, 
+This is my first time using react, a landing page for a travel company, it is a personal project, 
 
 tools used: Figma, Milanote, React (Node.js), VS Code
 
