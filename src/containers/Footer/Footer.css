@@ -1,0 +1,11 @@
+.sailor__footer{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 7rem;
+    margin-bottom: 4rem;
+
+    cursor: pointer;
+}

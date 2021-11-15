@@ -1,0 +1,121 @@
+.sailor__navbar{
+    background-color: #FFAF1C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+ 
+.sailor__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.sailor__navbar-links-logo{
+    flex: 1;
+    display: flex;
+    margin-right: 2rem ; 
+    justify-content: flex-start; 
+    font-size: 26px;
+    font-weight: bold;
+    color: #220003;
+    font-family: var(--font-family);
+    
+
+    cursor: pointer;
+}
+
+.sailor__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sailor__navbar-links_container p,
+.sailor__navbar-menu_container p{
+    color: #220003;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 25px;
+    
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.sailor__navbar-links_container a:after,
+.sailor__navbar-menu_container a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #220003;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+
+.sailor__navbar-links_container a:hover:after,
+.sailor__navbar-menu_container a:hover:after{
+    transform: scaleX(1);
+}
+
+
+
+.sailor__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.sailor___navbar-menu svg {
+    cursor: pointer;
+}
+
+.sailor__navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: #5C6DA5;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgb(0,0,0,0.2);
+}
+
+.sailor__navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width = 1050px){
+    .sailor__navbar-links_container{
+        display: none;
+    }
+
+    .sailor__navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width = 700px){
+    .sailor__navbar{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width = 550px){
+    .sailor__navbar{
+        padding: 2rem;
+    }
+
+    .sailor__navbar-links_container{
+        top: 20px;
+    }
+}
+

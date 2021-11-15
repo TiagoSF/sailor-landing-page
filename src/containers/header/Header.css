@@ -1,0 +1,61 @@
+
+.sailor__header{
+    display: flex;
+}
+
+.sailor__header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.sailor__header-content h1{
+    font-family: var(--font-special);
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #fff
+}   
+
+.sailor__header-content p{
+    font-family: var(--font-family);
+    font-weight: normal;
+    font-style: normal;
+    margin: 1rem 0;
+    line-height: 16px;
+    font-size: 18px;
+    color: #fff
+} 
+
+.sailor__button-details{
+    background-color: #220003;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.sailor__button-details:hover{
+    background-color: transparent;
+    color: #220003;
+    font-size: 16px;
+}
+
+.last-word{
+    color: #220003;
+}
+
